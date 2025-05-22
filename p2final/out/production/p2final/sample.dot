@@ -1,0 +1,6 @@
+graph sample {
+    "Node A" -- "Node B" [seconds=10.0];
+    "Node B" -- "Node C" [seconds=15.0];
+    "Node C" -- "Node A" [seconds=20.0];
+    "Node A" -- "Node D" [seconds=25.0];
+}

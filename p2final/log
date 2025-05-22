@@ -1,0 +1,140 @@
+Script started on 2023-11-28 04:49:58+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="111" LINES="39"]
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git ranch[K[K[K[K[Kbranch
+[?2004l[?1h=* [32mbackend[m[m
+  main[m[m
+[K[?1l>[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git cheko[K[Kckout main
+[?2004lerror: Your local changes to the following files would be overwritten by checkout:
+	BackendDeveloperTests.java
+	BackendInterface.java
+Please commit your changes or stash them before you switch branches.
+Aborting
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ g[Kls
+[?2004l Backend.class                'DijkstraGraph$SearchNode.class'   PlaceholderMap.class
+ Backend.java                  DijkstraGraph.class               PlaceholderMap.java
+ BackendDeveloperTests.class   DijkstraGraph.java                ShortestPath.class
+ BackendDeveloperTests.java    GraphADT.class                    ShortestPath.java
+ BackendInterface.class        GraphADT.java                     ShortestPathInterface.class
+ BackendInterface.java         Makefile                          ShortestPathInterface.java
+'BaseGraph$Edge.class'         MapADT.class                      campus.dot
+'BaseGraph$Node.class'         MapADT.java                       log
+ BaseGraph.class               PlaceholderGraphADT.class         sample.dot
+ BaseGraph.java                PlaceholderGraphADT.java
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ ls
+[?2004l Backend.class                'DijkstraGraph$SearchNode.class'   PlaceholderMap.class
+ Backend.java                  DijkstraGraph.class               PlaceholderMap.java
+ BackendDeveloperTests.class   DijkstraGraph.java                ShortestPath.class
+ BackendDeveloperTests.java    GraphADT.class                    ShortestPath.java
+ BackendInterface.class        GraphADT.java                     ShortestPathInterface.class
+ BackendInterface.java         Makefile                          ShortestPathInterface.java
+'BaseGraph$Edge.class'         MapADT.class                      campus.dot
+'BaseGraph$Node.class'         MapADT.java                       log
+ BaseGraph.class               PlaceholderGraphADT.class         sample.dot
+ BaseGraph.java                PlaceholderGraphADT.java
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ cat log
+[?2004l[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ m[Kcat log
+[?2004l[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git add
+[?2004lNothing specified, nothing added.
+[33mhint: Maybe you wanted to say 'git add .'?[m
+[33mhint: Turn this message off by running[m
+[33mhint: "git config advice.addEmptyPathspec false"[m
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git add log
+[?2004l[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git commit -m "adding log g[Kfile"
+[?2004l[backend 82b441a] adding log file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 log
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git add Makefile
+[?2004l[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git commit -m "added lo[K[K[K makefile[K[K[K[K[K[K[K[KMakefile"
+[?2004l[backend 9e1cda3] added Makefile
+ 1 file changed, 6 insertions(+)
+ create mode 100644 Makefile
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ ls
+[?2004l Backend.class                'DijkstraGraph$SearchNode.class'   PlaceholderMap.class
+ Backend.java                  DijkstraGraph.class               PlaceholderMap.java
+ BackendDeveloperTests.class   DijkstraGraph.java                ShortestPath.class
+ BackendDeveloperTests.java    GraphADT.class                    ShortestPath.java
+ BackendInterface.class        GraphADT.java                     ShortestPathInterface.class
+ BackendInterface.java         Makefile                          ShortestPathInterface.java
+'BaseGraph$Edge.class'         MapADT.class                      campus.dot
+'BaseGraph$Node.class'         MapADT.java                       log
+ BaseGraph.class               PlaceholderGraphADT.class         sample.dot
+ BaseGraph.java                PlaceholderGraphADT.java
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git add Backend.class
+[?2004lThe following paths are ignored by one of your .gitignore files:
+Backend.class
+[33mhint: Use -f if you really want to add them.[m
+[33mhint: Turn this message off by running[m
+[33mhint: "git config advice.addIgnoredFile false"[m
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git add Backend.java
+[?2004l[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git add BackendDeveloperTests.java
+[?2004l[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git add PlaceholderGraphADT.java
+[?2004l[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git add ShortestPath.java
+[?2004l[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git[K[K[Kgit commit -m "added role, test class[K[K[K[K[K[Ks, and placehol[Klders"
+[?2004l[backend ccd1674] added role, tests, and placeholders
+ 4 files changed, 212 insertions(+), 21 deletions(-)
+ create mode 100644 Backend.java
+ create mode 100644 PlaceholderGraphADT.java
+ create mode 100644 ShortestPath.java
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ got [K[K[Kit push
+[?2004lEnumerating objects: 14, done.
+Counting objects:   7% (1/14)Counting objects:  14% (2/14)Counting objects:  21% (3/14)Counting objects:  28% (4/14)Counting objects:  35% (5/14)Counting objects:  42% (6/14)Counting objects:  50% (7/14)Counting objects:  57% (8/14)Counting objects:  64% (9/14)Counting objects:  71% (10/14)Counting objects:  78% (11/14)Counting objects:  85% (12/14)Counting objects:  92% (13/14)Counting objects: 100% (14/14)Counting objects: 100% (14/14), done.
+Delta compression using up to 2 threads
+Compressing objects:   9% (1/11)Compressing objects:  18% (2/11)Compressing objects:  27% (3/11)Compressing objects:  36% (4/11)Compressing objects:  45% (5/11)Compressing objects:  54% (6/11)Compressing objects:  63% (7/11)Compressing objects:  72% (8/11)Compressing objects:  81% (9/11)Compressing objects:  90% (10/11)Compressing objects: 100% (11/11)Compressing objects: 100% (11/11), done.
+Writing objects:   8% (1/12)Writing objects:  16% (2/12)Writing objects:  25% (3/12)Writing objects:  33% (4/12)Writing objects:  41% (5/12)Writing objects:  50% (6/12)Writing objects:  58% (7/12)Writing objects:  66% (8/12)Writing objects:  75% (9/12)Writing objects:  83% (10/12)Writing objects:  91% (11/12)Writing objects: 100% (12/12)Writing objects: 100% (12/12), 3.24 KiB | 1.08 MiB/s, done.
+Total 12 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: To create a merge request for backend, visit:[K
+remote:   https://git.doit.wisc.edu/cdis/cs/courses/cs400/202309/groups/project2/E19.2/p2/-/merge_requests/new?merge_request%5Bsource_branch%5D=backend[K
+remote: 
+To https://git.doit.wisc.edu/cdis/cs/courses/cs400/202309/groups/project2/E19.2/p2.git
+   724d158..ccd1674  backend -> backend
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git add Dijka[KstraGraph.java
+[?2004l[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git commit -m "Add[K[K[Kadding DijkstraGrap.[Kh.java"
+[?2004l[backend 53daba3] adding DijkstraGraph.java
+ 1 file changed, 333 insertions(+)
+ create mode 100644 DijkstraGraph.java
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git push
+[?2004lEnumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 3.15 KiB | 3.15 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: To create a merge request for backend, visit:[K
+remote:   https://git.doit.wisc.edu/cdis/cs/courses/cs400/202309/groups/project2/E19.2/p2/-/merge_requests/new?merge_request%5Bsource_branch%5D=backend[K
+remote: 
+To https://git.doit.wisc.edu/cdis/cs/courses/cs400/202309/groups/project2/E19.2/p2.git
+   ccd1674..53daba3  backend -> backend
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ ls
+[?2004l Backend.class                'DijkstraGraph$SearchNode.class'   PlaceholderMap.class
+ Backend.java                  DijkstraGraph.class               PlaceholderMap.java
+ BackendDeveloperTests.class   DijkstraGraph.java                ShortestPath.class
+ BackendDeveloperTests.java    GraphADT.class                    ShortestPath.java
+ BackendInterface.class        GraphADT.java                     ShortestPathInterface.class
+ BackendInterface.java         Makefile                          ShortestPathInterface.java
+'BaseGraph$Edge.class'         MapADT.class                      campus.dot
+'BaseGraph$Node.class'         MapADT.java                       log
+ BaseGraph.class               PlaceholderGraphADT.class         sample.dot
+ BaseGraph.java                PlaceholderGraphADT.java
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ cat Grap[K[K[K[K[K[K[K[Kgit add ShortestPathInterface.a[Kjava
+[?2004l[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git commit -m "added Short[K[K[K[K[Kagreed upon ShortestPathInterface"
+[?2004l[backend fd9a92c] added agreed upon ShortestPathInterface
+ 1 file changed, 26 insertions(+)
+ create mode 100644 ShortestPathInterface.java
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git push
+[?2004lEnumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 634 bytes | 634.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: To create a merge request for backend, visit:[K
+remote:   https://git.doit.wisc.edu/cdis/cs/courses/cs400/202309/groups/project2/E19.2/p2/-/merge_requests/new?merge_request%5Bsource_branch%5D=backend[K
+remote: 
+To https://git.doit.wisc.edu/cdis/cs/courses/cs400/202309/groups/project2/E19.2/p2.git
+   53daba3..fd9a92c  backend -> backend
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ i[Kgit add "[Ksample.dot
+[?2004l[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git push
+[?2004lEverything up-to-date
+[?2004h]0;klkrause5@my-cs400-vm: ~/p2[01;32mklkrause5@my-cs400-vm[00m:[01;34m~/p2[00m$ git add[K[K[Kcommit -m "added sample [
